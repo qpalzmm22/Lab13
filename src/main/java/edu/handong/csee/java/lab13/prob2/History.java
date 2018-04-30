@@ -12,7 +12,7 @@ public class History extends Book{
 	}
 	public void printBookInfo() {
 		super.printBookInfo();
-		System.out.println("/tAuthor: " + author);
+		System.out.println("\tAuthor: " + author);
 	}
 	
 }

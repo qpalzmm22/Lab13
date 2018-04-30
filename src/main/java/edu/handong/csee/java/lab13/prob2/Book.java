@@ -1,19 +1,23 @@
 package edu.handong.csee.java.lab13.prob2;
 
 public class Book {
-	private int ID = 0 ;
+	private static int IDcount = 0 ;
+	private int ID;
 	private String name;
 	public Book() {
-		ID++;
+		IDcount++;
+		ID = IDcount;
 		name = "no Name"; 
 	}
 	public Book(String name) {
-		ID++;
+		IDcount++;
+		ID = IDcount;
 		this.name = name;
 	}
 	
 	public void printBookInfo() {
-		System.out.println("<<<"+ this.getClass().getName() + ">>>");
+		System.out.println("<<<"+ this.getClass().getSimpleName() + ">>>");
 		System.out.println("\tId: " + ID);
+		System.out.println("\tBook Name: " + name);
 	}
 }

@@ -12,7 +12,7 @@ public class Science extends Book{
 	}
 	public void printBookInfo() {
 		super.printBookInfo();
-		System.out.println("/tPublisher: " + publisher);
+		System.out.println("\tPublisher: " + publisher);
 	}
 }
 
