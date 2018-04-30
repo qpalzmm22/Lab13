@@ -11,7 +11,7 @@ public class InstanceOf {	// This class tests the relationships between Friend, 
 		else if (aFriend instanceof SchoolFriend) {	// if the friend is SchoolFriend
 			System.out.println("School Friend!");	// tell the user that he/she is SchoolFriend
 		}
-		else {										// if the friend is neither ClassFriend nor SchoolFriend(which makes he/she just a freind)
+		else {										// if the friend is neither ClassFriend nor SchoolFriend(which makes him/her just a friend)
 			System.out.println("Just a Friend!");	// tell the user that he/she is just a friend
 		}
 	}
