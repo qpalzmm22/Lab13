@@ -11,4 +11,9 @@ public class Book {
 		ID++;
 		this.name = name;
 	}
+	
+	public void printBookInfo() {
+		System.out.println("<<<"+ this.getClass().getName() + ">>>");
+		System.out.println("\tId: " + ID);
+	}
 }

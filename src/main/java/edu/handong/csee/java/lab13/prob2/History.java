@@ -1,7 +1,7 @@
 package edu.handong.csee.java.lab13.prob2;
 
 public class History extends Book{
-	String author;
+	private String author;
 	public History() {
 		super();
 		this.author = "UNKNOWN";
@@ -10,4 +10,9 @@ public class History extends Book{
 		super(name);
 		this.author = author;
 	}
+	public void printBookInfo() {
+		super.printBookInfo();
+		System.out.println("/tAuthor: " + author);
+	}
+	
 }

@@ -1,7 +1,7 @@
 package edu.handong.csee.java.lab13.prob2;
 
 public class Science extends Book{
-	String publisher;
+	private String publisher;
 	public Science() {
 		super();
 		this.publisher = "UNKNOWN";
@@ -10,4 +10,9 @@ public class Science extends Book{
 		super(name);
 		this.publisher = publisher;
 	}
+	public void printBookInfo() {
+		super.printBookInfo();
+		System.out.println("/tPublisher: " + publisher);
+	}
 }
+
