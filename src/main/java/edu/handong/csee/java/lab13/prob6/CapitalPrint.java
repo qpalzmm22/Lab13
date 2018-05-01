@@ -1,5 +1,4 @@
-package edu.handong.csee.java.lab13.prob6;
+package edu.handong.csee.java.lab13.prob6;	// makes it a package
 
-public interface CapitalPrint {
-	
+public interface CapitalPrint {	// interface of UpPoint	
 }
