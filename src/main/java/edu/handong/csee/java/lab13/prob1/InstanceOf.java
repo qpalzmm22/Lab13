@@ -2,7 +2,7 @@ package edu.handong.csee.java.lab13.prob1; // makes it a package
 
 public class InstanceOf {	// This class tests the relationships between Friend, SchoolFriend and ClassFriend
 
-	public static void WhatFriend(Friend aFriend) {	// static : usuable without instanciation, 
+	public static void figureTypeOfFriend(Friend aFriend) {	// static : usuable without instanciation, 
 													// check if the parameter(Friend) is school friend, class friend
 													// or just a friend
 		if(aFriend instanceof ClassFriend) {		// if the friend is ClassFriend
@@ -21,9 +21,9 @@ public class InstanceOf {	// This class tests the relationships between Friend, 
 		Friend friend2 = new SchoolFriend();		// Makes a instance of SchoolFriend
 		Friend friend3 = new ClassFriend();			// Makes a instance of ClassFriend
 		
-		InstanceOf.WhatFriend(friend1);				// Check what kind of friend friend1 is
-		InstanceOf.WhatFriend(friend2);				// Check what kind of friend friend2 is
-		InstanceOf.WhatFriend(friend3);				// Check what kind of friend friend3 is
+		InstanceOf.figureTypeOfFriend(friend1);				// Check what kind of friend friend1 is
+		InstanceOf.figureTypeOfFriend(friend2);				// Check what kind of friend friend2 is
+		InstanceOf.figureTypeOfFriend(friend3);				// Check what kind of friend friend3 is
 	}
 
 }
